@@ -1,0 +1,56 @@
+/* TOP SECTION STYLES */
+
+.header {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 100%;
+}
+
+body {
+  background: url(/src/assets/small_steps.png) repeat 0 0;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: space-around;
+}
+
+.search-bar-div {
+  padding: 10px;
+  border: 2px solid #8EB1D9;
+  border-radius: 5px;
+  width: 50%;
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: space-around;
+  min-width: 400px;
+}
+
+.search-bar input {
+  width: 70%;
+  height: 40px;
+  border: none;
+  background-color: inherit;
+  color: #7B9FCF;
+  font-weight: bold;
+}
+
+.search-bar input:focus {
+  outline: none;
+}
+
+.search-bar button {
+  font-weight: bold;
+  border: 0;
+  height: 40px;
+  width: 20%;
+  background-color: #8EB1D9;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.search-bar img {
+  height: 40px;
+}
